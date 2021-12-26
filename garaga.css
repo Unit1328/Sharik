@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background-image: url(xmas_Danya.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.uvu {
+	width: 60vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	color: red;
+	font-size: 120px;
+	font-family: 'The Nautigal', cursive;
+	margin-left: -30vw;
+	margin-top: -300px;
+}
+.uwu {
+	background-image: url(snowflake2.png), url(snowflake1.png), url(snowflake3.png);
+	height: 100%;
+	animation: snow 15s linear infinite;
+}
+@keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0xp,0px 0px;
+	}
+	100% {
+		background-position: 550px 1100px, 200px 350px, 400px 250px;
+	}
+}
+
